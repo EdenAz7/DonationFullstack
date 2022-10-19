@@ -1,0 +1,23 @@
+.DonationList {
+	direction: ltr;
+}
+
+.DonationList>table{
+    margin: 50px auto;
+}
+.DonationList table, .DonationList th, .DonationList td{
+    border:1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.DonationList tr:nth-child(even){
+    background-color: lightblue;
+}
+.DonationList tr:nth-child(odd){
+    background-color: lightgreen;
+}
+
+.DonationList thead tr:first-child{
+    background-color: gray;
+}
